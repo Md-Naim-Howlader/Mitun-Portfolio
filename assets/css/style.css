@@ -9,6 +9,13 @@
   --bg-alt:#f6f8fb;
   --nav-h:64px;
 }
+.hero {
+  background-image: url('/assets/Image/hero-image-background.png') !important;
+background-position: center;
+background-size: cover;
+height: 100%;
+width: 100%;
+}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:var(--nav-h)}
 body{font-family:'Rubik',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
